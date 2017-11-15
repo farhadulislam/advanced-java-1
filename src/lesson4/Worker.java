@@ -10,7 +10,7 @@ public class Worker {
         try {
             Thread.sleep(1);
         } catch (Exception e) {
-            //TODO: handle exception
+            
         }
 
        new Thread(new Runnable(){
@@ -43,6 +43,12 @@ public class Worker {
 
         
      
+    }
+
+    public void process (){
+        stageOne();
+        
+        stageTwo();
     }
 
     
