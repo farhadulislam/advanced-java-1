@@ -22,9 +22,29 @@ public class Worker {
            }
 
        });
+    }
+       
+    public void stageTwo() {
+        try {
+            Thread.sleep(1);
+        } catch (Exception e) {
+            //TODO: handle exception
+        }
+
+        new Thread(new Runnable() {
+            public void run() {
+                for (int i = 0; i < 100; i++) {
+                    count++;
+                }
+
+            }
+
+        });
 
         
      
     }
+
+    
 
 }
