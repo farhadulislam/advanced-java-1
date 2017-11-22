@@ -1,5 +1,6 @@
 package lesson4synchronized;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -12,20 +13,26 @@ public class Worker {
 
 	 
 	 public void stageOne() {
-		 try{
-			 Thread.sleep(100);
-			 } catch(Exception e) {
-				 
-			 }
+		 
+		 try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				
+				e.printStackTrace();
+			}
 		list1.add(random.nextInt(100));
 	 }
 	 
 	 public void stageTwo() {
-		 try{
-			 Thread.sleep(100);
-			 } catch(Exception e) {
-				 
-			 }
+		
+			 try {
+				Thread.sleep(100);
+				
+			} catch (InterruptedException e) {
+				
+				e.printStackTrace();
+			}
+			 
 		list2.add(random.nextInt(100));
 	 }
 	 
@@ -40,12 +47,16 @@ public class Worker {
 		
 		long start = System.currentTimeMillis();
 	
-		
-		new Thread(new Runnable() {
+		Thread t1  = new Thread(new Runnable() {
+			
 			public void run() {
+				
 				process();
+				
 			}
-		}).start();
+		});
+		
+		t1.start();
 		
 		long end = System.currentTimeMillis();
 		
