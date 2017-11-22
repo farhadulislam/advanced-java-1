@@ -39,10 +39,19 @@ public class Worker {
 	public void main() {
 		
 		long start = System.currentTimeMillis();
-		process();
+	
+		
+		new Thread(new Runnable() {
+			public void run() {
+				process();
+			}
+		}).start();
+		
 		long end = System.currentTimeMillis();
 		
 		System.out.println("Time taken:"+ (end-start));
+		System.out.println("List 1 size : "+ list1.size());
+		System.out.println(list2.size());
 	    
 	}
 
