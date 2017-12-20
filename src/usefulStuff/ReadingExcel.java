@@ -8,13 +8,11 @@ import java.util.Map;
 public class ReadingExcel {
 
 	public static void main(String[] args) {
-	
-		System.out.println("....");
 		
-		List<Integer> arbitraryNumbers = new ArrayList<Integer>();
+		ReadingApp readingApp1 = new ReadingApp();
 		
-		Map<Integer, String> hashMap = new HashMap<Integer, String>();
-
 	}
+	
+	
 
 }
