@@ -9,7 +9,7 @@ public class ReadingExcel {
 
 	public static void main(String[] args) {
 		
-		ReadingApp readingApp1 = new ReadingApp();
+		ReadingApp readingApp1 = new ReadingApp(0, null);
 		
 	}
 	
