@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67356710-84d2-4b18-85cd-04486c0d8b35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson11deadlock/Account.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson11deadlock/Runner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson12semaphores/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson12semaphores/Connection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -16,29 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lesson11deadlock/Account.java">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lesson12semaphores/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="558">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lesson11deadlock/Runner.java">
+      <file leaf-file-name="Connection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lesson12semaphores/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="400">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,6 +65,8 @@
         <option value="$PROJECT_DIR$/src/Lesson8waitNotify/App.java" />
         <option value="$PROJECT_DIR$/src/lesson11deadlock/Account.java" />
         <option value="$PROJECT_DIR$/src/lesson11deadlock/Runner.java" />
+        <option value="$PROJECT_DIR$/src/lesson12semaphores/App.java" />
+        <option value="$PROJECT_DIR$/src/lesson12semaphores/Connection.java" />
       </list>
     </option>
   </component>
@@ -110,7 +107,7 @@
               <item name="Multithreading" type="b2602c69:ProjectViewProjectNode" />
               <item name="advanced_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson11deadlock" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson12semaphores" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -431,8 +428,26 @@
         <state relative-caret-position="1368">
           <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson12semaphores/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson12semaphores/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
