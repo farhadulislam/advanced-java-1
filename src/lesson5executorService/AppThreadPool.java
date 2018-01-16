@@ -2,6 +2,7 @@ package lesson5executorService;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class Processor implements Thread {
     public void run() {
