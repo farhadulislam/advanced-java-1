@@ -10,7 +10,7 @@ public class Processor implements Thread {
 
             Thread.sleep(100);
 
-        } catch(Exception e) {
+        } catch (Exception e) {
 
         }
     }
@@ -21,13 +21,9 @@ public class AppThreadPool {
 
     ExecutorService executor = Executors.newFixedThreadPool(2);
 
-    for(
-    int i = 0;
-    i<5;i++)
+    for (int i = 0;i<5;i++){
 
-    {
-
-        executor.submit(new Processor(i));
+        executor.submit(new Processor());
 
         executor.shutdown();
 
@@ -36,7 +32,7 @@ public class AppThreadPool {
 
             executor.awaitTermination(1, TimeUnit.Days);
 
-        } catch(InterruptedException e) {
+        } catch (InterruptedException e) {
 
         }
     }
