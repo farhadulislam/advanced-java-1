@@ -22,7 +22,7 @@ public class Connection {
         sem.acquire();
 
         try{
-            connect();
+            doConnect();
 
         }finally {
             sem.release();
