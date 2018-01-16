@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Worker {
 
     private Object lock1 = new Object();
-    private Object lock1 = new Object();
+    private Object lock2 = new Object();
     private Random random = new Random();
     private List<Integer> list1 = new ArrayList<Integer>();
     private List<Integer> list2 = new ArrayList<Integer>();
@@ -65,7 +65,7 @@ public class Worker {
 
         long end = System.currentTimeMillis();
 
-        System.out.println("Time taken " + (end-start);
+        System.out.println("Time taken " + (end-start));
         System.out.println("List 1 is " + list1.size() + " ; List 2 is "+ list2.size());
 
     }
