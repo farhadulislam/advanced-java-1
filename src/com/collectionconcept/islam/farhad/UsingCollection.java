@@ -40,7 +40,7 @@ public class UsingCollection {
         System.out.println(products1.isEmpty());
         System.out.println(products1.contains(window));
 
-        
+
 
 
     }
