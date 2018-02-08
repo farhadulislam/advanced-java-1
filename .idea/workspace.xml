@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67356710-84d2-4b18-85cd-04486c0d8b35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lesson8waitNotify/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lesson8waitNotify/Processor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/collectionconcept/islam/farhad/Product.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/collectionconcept/islam/farhad/UsingCollection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson11deadlock/Account.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson11deadlock/Runner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson12semaphores/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson12semaphores/Connection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson13callable/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson1demo1/Application.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson1demo2/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson1demo3/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson2/thread/synchronization/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson3/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson4/App4.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson4/Worker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson4recap/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson4recap/Worker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson4synchronized/Application4.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson4synchronized/Worker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lesson5executorService/AppThreadPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/singleton/obj/Singleton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/usefulStuff/ReadingApp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/usefulStuff/ReadingExcel.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/collectionconcept/islam/farhad/ListExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multithreading.iml" afterPath="$PROJECT_DIR$/Multithreading.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,18 +19,8 @@
       <file leaf-file-name="UsingCollection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/collectionconcept/islam/farhad/UsingCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
+            <state relative-caret-position="490">
               <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/singleton/obj/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,18 +29,18 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson13callable/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+            <state relative-caret-position="540">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ListExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/collectionconcept/islam/farhad/ListExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="360">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -130,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/com/collectionconcept/islam/farhad/UsingCollection.java" />
         <option value="$PROJECT_DIR$/src/singleton/obj/Singleton.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/collectionconcept/islam/farhad/ListExample.java" />
       </list>
     </option>
   </component>
@@ -335,10 +299,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="20" width="1545" height="915" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32860824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20618556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -372,13 +337,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson8waitNotify/Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson4recap/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -688,10 +646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/collectionconcept/islam/farhad/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/obj/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -704,26 +662,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/obj/Singleton.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/collectionconcept/islam/farhad/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/collectionconcept/islam/farhad/UsingCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
+        <state relative-caret-position="490">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/collectionconcept/islam/farhad/ListExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson13callable/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        <state relative-caret-position="540">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
