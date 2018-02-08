@@ -9,6 +9,7 @@ public class Singleton {
 		if (instance == null) {
 			
 			Singleton singleton1 = getInstance();
+
 		}
 		return instance;
 		
