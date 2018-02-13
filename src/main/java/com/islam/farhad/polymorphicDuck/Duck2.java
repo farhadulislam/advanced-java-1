@@ -1,4 +1,4 @@
 package com.islam.farhad.polymorphicDuck;
 
-public class Duck {
+public class Duck2 {
 }
