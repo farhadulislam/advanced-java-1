@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_multithreading" default="compile.module.multithreading">
+  <dirname property="module.multithreading.basedir" file="${ant.file.module_multithreading}"/>
+  
+  <property name="module.jdk.home.multithreading" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.multithreading" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.multithreading" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.multithreading" value="-encoding UTF-8 -source 1.5 -target 1.8 ${compiler.args}"/>
+  
+  <property name="multithreading.output.dir" value="${module.multithreading.basedir}/target/classes"/>
+  <property name="multithreading.testoutput.dir" value="${module.multithreading.basedir}/target/test-classes"/>
+  
+  <path id="multithreading.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="multithreading.module.production.classpath">
+    <path refid="${module.jdk.classpath.multithreading}"/>
+  </path>
+  
+  <path id="multithreading.runtime.production.module.classpath">
+    <pathelement location="${multithreading.output.dir}"/>
+  </path>
+  
+  <path id="multithreading.module.classpath">
+    <pathelement location="${multithreading.output.dir}"/>
+    <path refid="${module.jdk.classpath.multithreading}"/>
+  </path>
+  
+  <path id="multithreading.runtime.module.classpath">
+    <pathelement location="${multithreading.testoutput.dir}"/>
+    <pathelement location="${multithreading.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.multithreading">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.multithreading">
+    <patternset refid="excluded.from.module.multithreading"/>
+  </patternset>
+  
+  <path id="multithreading.module.sourcepath">
+    <dirset dir="${module.multithreading.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+    </dirset>
+  </path>
+  
+  <path id="multithreading.module.test.sourcepath">
+    <dirset dir="${module.multithreading.basedir}">
+      <include name="src/test/java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.multithreading" depends="compile.module.multithreading.production,compile.module.multithreading.tests" description="Compile module Multithreading"/>
+  
+  <target name="compile.module.multithreading.production" depends="register.custom.compilers" description="Compile module Multithreading; production classes">
+    <mkdir dir="${multithreading.output.dir}"/>
+    <javac2 destdir="${multithreading.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.multithreading}/javac">
+      <compilerarg line="${compiler.args.multithreading}"/>
+      <bootclasspath refid="multithreading.module.bootclasspath"/>
+      <classpath refid="multithreading.module.production.classpath"/>
+      <src refid="multithreading.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.multithreading"/>
+    </javac2>
+    
+    <copy todir="${multithreading.output.dir}">
+      <fileset dir="${module.multithreading.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.multithreading.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.multithreading.tests" depends="register.custom.compilers,compile.module.multithreading.production" description="compile module Multithreading; test classes" unless="skip.tests">
+    <mkdir dir="${multithreading.testoutput.dir}"/>
+    <javac2 destdir="${multithreading.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.multithreading}/javac">
+      <compilerarg line="${compiler.args.multithreading}"/>
+      <bootclasspath refid="multithreading.module.bootclasspath"/>
+      <classpath refid="multithreading.module.classpath"/>
+      <src refid="multithreading.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.multithreading"/>
+    </javac2>
+    
+    <copy todir="${multithreading.testoutput.dir}">
+      <fileset dir="${module.multithreading.basedir}/src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.multithreading" description="cleanup module">
+    <delete dir="${multithreading.output.dir}"/>
+    <delete dir="${multithreading.testoutput.dir}"/>
+  </target>
+</project>
