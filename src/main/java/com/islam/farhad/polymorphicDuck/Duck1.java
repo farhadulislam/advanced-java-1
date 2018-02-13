@@ -1,10 +1,10 @@
 package com.islam.farhad.polymorphicDuck;
 
-public class Duck {
+public class Duck1 {
 
     private String myName;
 
-    public Duck (String theName){
+    public Duck1(String theName){
 
         myName = theName;
     }

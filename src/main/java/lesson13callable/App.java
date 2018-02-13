@@ -2,6 +2,7 @@ package lesson13callable;
 
 import java.io.IOException;
 import java.util.Random;
+import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
@@ -12,7 +13,7 @@ public class App {
 
         ExecutorService executor = Executors.newCachedThreadPool();
 
-        Future<?> future = executor.submit((new Callable < Integer) > () {
+        Future<?> future = executor.submit((new Callable< Integer>)(){
 
             public Integer call() throws Exception{
 

@@ -1,15 +1,15 @@
 package com.islam.farhad.polymorphicDuck;
 
-public class DuckCall {
+public class DuckCall1 {
 
     private String myName;
 
-    protected DuckCall(String theName){
+    public DuckCall1(String theName){
 
         myName = theName;
     }
 
-    protected void quack(){
+    public void quack(){
 
         System.out.println(myName + " : Fake Quack!");
     }

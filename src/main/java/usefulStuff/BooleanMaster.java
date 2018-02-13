@@ -1,6 +1,7 @@
 package usefulStuff;
 
 public class BooleanMaster {
+
     public static void main (String [] args){
 
         boolean skyIsBlue = true ;
