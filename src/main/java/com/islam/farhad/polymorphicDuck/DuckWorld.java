@@ -18,5 +18,10 @@ public class DuckWorld {
         quackable1.quack();
         quackable2.quack();
 
+        // Now, client use of Quackables
+
+        Quackable quacker = QuackFactory.createQuacker("Duck call");
+        quacker.quack(); // We don't know if QuackFactory returns a Duck or a DuckCall, and for our purposes, we don't care.
+
     }
 }
