@@ -23,5 +23,20 @@ public class DuckWorld {
         Quackable quacker = QuackFactory.createQuacker("Duck call");
         quacker.quack(); // We don't know if QuackFactory returns a Duck or a DuckCall, and for our purposes, we don't care.
 
+
+        //using decorator pattern
+
+        Quackable quacker2 = new QuackDecorator(new Duck2 ("Donald from decorator"));
+        quacker2.quack();
+
+
+        Quackable quacker3 = new QuackDecorator(new DuckCall2 ("DuckCall2 from decorator"));
+        quacker3.quack();
+
+        System.out.println("Total # of Quacks: " + QuackDecorator.getQuackCount());
+
+
+
+
     }
 }
