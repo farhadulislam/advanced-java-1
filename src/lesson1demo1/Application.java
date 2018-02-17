@@ -33,6 +33,8 @@ public class Application {
 		Runner r3 = new Runner();
 		r3.start();
 
+		new Thread().start();
+
 	}
 
 }
